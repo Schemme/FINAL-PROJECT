@@ -1,7 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np 
  
 st.title('6th man of the year votes')
 df=pd.read_csv('https://github.com/Schemme/FINAL-PROJECT/blob/main/6MOY.csv')
