@@ -21,4 +21,4 @@ st.sidebar.title("Choose votes to Display")
     data_to_plot.plot(kind='bar', ax=ax)
     ax.set_ylabel('Votes')
     ax.set_title('Votes Distribution')
-    return fig
+    st.pyplot(fig)
