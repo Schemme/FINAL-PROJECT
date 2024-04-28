@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np 
  
 st.title('6th man of the year votes')
-df=pd.read_csv('Schemme/FINAL-PROJECT/6MOY.csv')
+df=pd.read_csv('https://github.com/Schemme/FINAL-PROJECT/blob/main/6MOY.csv')
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
