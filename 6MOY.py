@@ -16,7 +16,7 @@ st.sidebar.title("Choose votes to Display")
 
 
     fig, ax = plt.subplots()
-    data_to_plot = data[columns_to_display].sum()
+    data_to_plot = df[columns_to_display].sum()
     data_to_plot.plot(kind='bar', ax=ax)
     ax.set_ylabel('Votes')
     ax.set_title('Votes Distribution')
