@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # Load the data
-url = "https://raw.githubusercontent.com/Brevon1104/dsc205/main/team%20stats.csv"
+url = "https://raw.githubusercontent.com/Schemme/FINAL-PROJECT/main/data%20(csvs)/NBA%20Stats%20202324%20Team%20Metrics%20Away-Home-Last%205%20Splits.csv"
 df = pd.read_csv(url)
 
 # Sidebar - Division selection
