@@ -19,7 +19,7 @@ def main():
     st.write("""At the end of each year the top 15 players in the NBA get voted to an All-NBA team. There are 3 teams each composed of 2 guards, 2 forwards, and 1 center.
 Aside from being named MVP, this is the biggest recognition a player can receive for their performances in a year. With that being said we have created this visualization sorted by position to allow you guys to get a feel for who is at the top of the league in terms of performance and might be named to one of the 3 All-NBA teams when the season concludes.""")
 
-    df = load_data('https://raw.githubusercontent.com/Brevon1104/dsc205/main/Total%20NBA%20Stats.csv')
+    df = load_data('https://raw.githubusercontent.com/Schemme/FINAL-PROJECT/main/data%20(csvs)/Total%20NBA%20Stats.csv')
 
     # Sidebar for position selection
     position = st.sidebar.selectbox('Select Position', df['Pos'].unique())
